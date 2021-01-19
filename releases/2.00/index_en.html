@@ -1,0 +1,1450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xml:lang="en" lang="en" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="en" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   
+  <title>Core Criterion and Core Evidence Vocabulary</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui.css" />
+  <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui-corporate.css" />
+
+  <link rel="icon" sizes="192x192" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/cms/icons/DUETLogo.jpg" />
+
+  <meta name="msapplication-square70x70logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-square150x150logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-wide310x150logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-square310x310logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-TileColor" content="#7ED956" />
+</head>
+
+<body>
+  <div style="min-height:44px;;" id="duet-header" class="header">
+    <!-- insert your global header here -->
+    <title>Duet</title>
+    <i class="logo">DUETLogo</i>
+    <!-- end global header-->
+  </div>
+
+  <!-- Start page content -->
+  <div class="page">
+    <div class="layout layout--wide">
+      <div class="skiplink">
+        <a rel="nofollow noreferrer" href="#main">Skip this section and go to general content</a>
+      </div>
+    </div>
+    <div class="page">
+      <div class="region">
+        <div class="layout layout--wide">
+          <div class="grid u-hr">
+            <div class="col--9-12 col--1-1--s">
+              <h1 class="h1">Core Criterion and Core Evidence Vocabulary</h1>
+
+              <div class="head" role="status" id="status">
+              <dl>
+              <dt>Status</dt><dd><a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard</a></dd>
+              <dt>Published at</dt><dd>TBD</dd>
+              <dt>This version</dt><dd><a href="https://duet.dev-vlaanderen.be/doc/applicationprofile/cccev-ap">https://duet.dev-vlaanderen.be/doc/applicationprofile/cccev-ap</a></dd>
+              
+              
+              </dl>
+              </div>
+
+              <div class="head" role="contentinfo" id="respecHeader">
+                <dl>
+                        
+                          
+                            
+                        
+                          <dt>Authors</dt>
+                          
+                          <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
+                              <span typeof="foaf:Person">
+                              <span class="p-name fn" property="foaf:lastName">AuteurNaam</span>,
+                              <span class="p-name fn" property="foaf:firstName">AuteurVoornaam</span>
+                              
+                              - <a href="https://auteurwebsiteurl" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">AuteurAffiliatie</a>
+                              
+                							
+                               - <span class="ed_mailto"><a href="mailto:auteurvoornaam.auteurnaam@auteurdomein" rel="foaf:mbox" class="u-email email">auteurvoornaam.auteurnaam@auteurdomein</a></span>
+                              
+                              </span>
+                          </dd>
+                          
+                        
+                      
+                      
+                          
+                        
+                        
+                          <dt>Editors</dt>
+                          
+                          <dd inlist="" rel="bibo:editor" class="p-author h-card vcard">
+                              <span typeof="foaf:Person">
+                              <span class="p-name fn" property="foaf:lastName">EditorNaam</span>,
+                              <span class="p-name fn" property="foaf:firstName">EditorVoornaam</span>
+                              
+                                 - <a href="https://editorwebsiteurl" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">EditorAffiliatie</a>
+                              
+                							
+                                 - <span class="ed_mailto"><a href="mailto:editorvoornaam.editornaam@editordomein" rel="foaf:mbox" class="u-email email">editorvoornaam.editornaam@editordomein</a></span>
+                              
+                							</span>
+                          </dd>
+                        
+                        
+                      
+                      
+                          
+                        
+                        
+                        <dt>Contributors</dt>
+                          
+                          <dd inlist="" rel="dcterms:contributor" class="p-author h-card vcard">
+                              <span typeof="foaf:Person">
+                              <span class="p-name fn" property="foaf:lastName">MedewerkerNaam</span>,
+                              <span class="p-name fn" property="foaf:firstName">MedewerkerVoornaam</span>
+                              
+                              - <a href="https://medewerkerwebsiteurl" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">MedewerkerAffiliatie</a>
+                              
+                							
+                               - <span class="ed_mailto"><a href="mailto:medewerkervoornaam.medewerkernaam@medewerkerdomein" rel="foaf:mbox" class="u-email email">medewerkervoornaam.medewerkernaam@medewerkerdomein</a></span>
+                              
+							                </span>
+                          </dd>
+                            
+                          
+                        
+                      
+                </dl>
+              </div>
+
+              <div class="head" role="metainfo" id="metainfo">
+              <dl>
+              <dt>Source</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/tree/9757318c4742c27cf1b057c63bd3f492dd0bba55">https://github.com/AnnemarieWittig/englishworkspace/tree/9757318c4742c27cf1b057c63bd3f492dd0bba55</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/AnnemarieWittig/englishworkspace/blob/9757318c4742c27cf1b057c63bd3f492dd0bba55/CHANGELOG">https://github.com/AnnemarieWittig/englishworkspace/blob/9757318c4742c27cf1b057c63bd3f492dd0bba55/CHANGELOG</a></dd>
+              <dt>Feedback</dt><dd><a href="https://github.com/SEMICeu/CCCEV/issues">https://github.com/SEMICeu/CCCEV/issues</a></dd>
+              <dt>Registry of standards</dt><dd><a href=""></a></dd>
+
+              <dt>Dependencies</dt><dd>
+                
+		</dd>
+              </dl>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main" itemprop="mainContentOfPage" role="main" tabindex="-1" class="main-content">
+      <div class="layout layout--wide">
+        <div class="grid">
+          <div class="col--8-12 col--12-12--s">
+            <div class="region" id="introduction">
+              <div class="introduction typography">
+              
+		<p>This document describes an <strong>application profile</strong>, in this case <strong>Core Criterion and Core Evidence Vocabulary</strong>.
+		The application profile specifies a semantic data model covering a set of usecases. 
+		The specification consists of terms with their constraints (cardinalities, codelists, usage guidelines).  
+		</p>
+              
+              </div>
+            </div>
+
+            <div class="region region--no-space-top typography" id="summary">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Summary</h2>
+                
+<p>The Core Criterion and Core Evidence Vocabulary (CCCEV) is designed to support the exchange of information between organisations defining criteria and organisations responding to these criteria by means of evidences.
+<br/>
+The CCCEV contains two basic and complementary core concepts:
+<ul>
+<li> the criterion, something used as the basis for making a judgement or decision, e.g. a requirement set in a public tender or a condition that has to be fulfilled for a public service to be executed; and </l>
+<li> the evidence, something which proves that something else exists or is true, in particular an evidence is used to prove that a specific criterion is met by someone of by something. </li>
+</ul>
+</p>
+
+            </div>
+
+            <div class="region region--no-space-top typography" id="status">
+              <section class="introductory" id="sotd" typeof="bibo:Chapter" resource="#ref" rel="bibo:Chapter">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status of this document</h2>
+                
+                <p>
+                  This application profile has the status <a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">Ontwerp Standaard</a> publised at TBD.
+	        </p><p>
+		  Information about the process and the decisions involved in the creation of this specification are consultable at the 
+		  <a href="">registry of standards</a>.
+                </p>
+                
+              </section>
+            </div>
+
+            <div class="region region--no-space-top typography" id="license">
+              <h2 class="h2">License</h2>
+              
+<p><span rel="dct:type" property="dct:title" href="http://purl.org/dc/dcmitype/Text" xmlns:dct="http://purl.org/dc/terms/">
+This specification</span> of <a rel="cc:attributionURL" property="cc:attributionName" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic" xmlns:cc="http://creativecommons.org/ns#">SEMIC</a> is published under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">"CC-BY 4.0"</a>.</p>
+
+            </div>
+            <div class="region region--no-space-top typography" id="conformance">
+              <h2 class="h2" id="conformance" aria-level="1" role="heading">Conformiteit</h2>
+              
+              <p>An implementation is conformant with this application profile if it satifies <a href="/doc/conformance">these rules</a>.</p>
+              
+            </div>
+            <div class="region region--no-space-top" id="overview">
+              <h2 class="h2">Overview</h2>
+              <div class="grid">
+                <div class="col--9-12 col--1-1--s typography">
+                  
+                  <div class="region region--no-space-top">
+                    <p>This document describes the usage of the following entities for a correct usage of the Application Profile: 
+                      <br />
+                      |
+                      <a href="#Agent">Agent</a> |
+                      <a href="#Constraint">Constraint</a> |
+                      <a href="#Criterion">Criterion</a> |
+                      <a href="#Dataset">Dataset</a> |
+                      <a href="#Distribution">Distribution</a> |
+                      <a href="#Evidence">Evidence</a> |
+                      <a href="#Evidence type">Evidence type</a> |
+                      <a href="#Evidence Type List">Evidence Type List</a> |
+                      <a href="#Information Requirement">Information Requirement</a> |
+                      <a href="#Reference Framework">Reference Framework</a> |
+                      <a href="#Requirement">Requirement</a> |
+                      <a href="#RequirementConcept">RequirementConcept</a> |
+                      <a href="#Standard">Standard</a> |
+                    </p>
+                  </div>
+                  
+                  
+                  <div class="region region--no-space-top">
+                    <p> This document describes the usage of the following datatypes for a correct usage of the Application Profile:
+                      <br />
+                      |
+                      <a href="#Code">Code</a> |
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="region region--no-space-top">
+              <a href="/doc/applicationprofile/cccev-ap/html/overview.jpg" target="_blank">
+                 <img src="/doc/applicationprofile/cccev-ap/html/overview.jpg" />
+              </a>
+            </div>
+            <div class="region region--no-space-top">
+              <h2 class="h2">Entities</h2>
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Agent"><a href="http://xmlns.com/foaf/0.1/Agent" data-toggle="tooltip" data-content="http://xmlns.com/foaf/0.1/Agent" data-placement="right">Agent</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>An entity that does things (does stuff)</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		    
+                    <dd>No properties have been defined for this entity.</dd>
+                    
+                  </dl>
+                </div>
+		
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Constraint"><a href="http://data.europa.eu/m8g/cccev#Constraint" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#Constraint" data-placement="right">Constraint</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>Limitation applied to requirement(s) or to the concept(s) the requirement is about.</dd>
+                    
+                    <dt>Usage</dt><dd>An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates.</dd>
+                    
+		     
+		    <dt>Subclass of<dt><dd>
+                        <a href="#Requirement">Requirement</a>
+		   </dd>
+                    
+                    <dt>Properties</dt>
+		    
+                    <dd>No properties have been defined for this entity.</dd>
+                    
+                  </dl>
+                </div>
+		
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Criterion"><a href="http://data.europa.eu/m8g/cccev#Criterion" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#Criterion" data-placement="right">Criterion</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>condition for evaluation or assessment.</dd>
+                    
+                    <dt>Usage</dt><dd>In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences.</dd>
+                    
+		     
+		    <dt>Subclass of<dt><dd>
+                        <a href="#Requirement">Requirement</a>
+		   </dd>
+                    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Criterion%3Abias">bias</a>, 
+                      <a href="#Criterion%3Aweight">weight</a>, 
+                      <a href="#Criterion%3Aweighting%20consideration%20description">weighting consideration description</a>, 
+                      <a href="#Criterion%3Aweighting%20type">weighting type</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Criterion%3Abias" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#bias">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#bias" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#bias" data-placement="right">
+                            bias</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Additional parameter used to adjust the evaluation of the criterion composed of multiple sub-criteria.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Criterion%3Aweight" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#weight">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#weight" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#weight" data-placement="right">
+                            weight</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Relative importance assigned to a given criterion.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Criterion%3Aweighting%20consideration%20description" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#weightingConsiderationDescription">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#weightingConsiderationDescription" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#weightingConsiderationDescription" data-placement="right">
+                            weighting consideration description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">The explanation of how the weighting of a Criterion is to be used at evaluation time.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Criterion%3Aweighting%20type" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#weightingType">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#weightingType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#weightingType" data-placement="right">
+                            weighting type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Code" data-placement="right">Code</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">The numeric form used to weight.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Dataset"><a href="http://www.w3.org/ns/dcat#Dataset" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#Dataset" data-placement="right">Dataset</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd></dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Dataset%3Adistribution">distribution</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Dataset%3Adistribution" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#distribution">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/dcat#distribution" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#distribution" data-placement="right">
+                            distribution</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Distribution" data-placement="right">Distribution</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the distribution of a dataset</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Distribution"><a href="http://www.w3.org/ns/dcat#Distribution" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#Distribution" data-placement="right">Distribution</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd></dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Distribution%3Adownload%20URL">download URL</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Distribution%3Adownload%20URL" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#downloadURL">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/dcat#downloadURL" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#downloadURL" data-placement="right">
+                            download URL</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment"></td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Evidence"><a href="http://data.europa.eu/m8g/cccev#Evidence" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#Evidence" data-placement="right">Evidence</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>The data proving that a requirement is met or has been fulfilled.</dd>
+                    
+		     
+		    <dt>Subclass of<dt><dd>
+                        <a href="#Dataset">Dataset</a>
+		   </dd>
+                    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Evidence%3Aconfidentiality%20level%20type">confidentiality level type</a>, 
+                      <a href="#Evidence%3Ais%20about">is about</a>, 
+                      <a href="#Evidence%3Ais%20Conformant">is Conformant</a>, 
+                      <a href="#Evidence%3Asupports%20concept">supports concept</a>, 
+                      <a href="#Evidence%3Asupports%20concept">supports concept</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Evidence%3Aconfidentiality%20level%20type" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#confidentionalityLevelType">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#confidentionalityLevelType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#confidentionalityLevelType" data-placement="right">
+                            confidentiality level type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Code" data-placement="right">Code</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">The security classification assigned to an Evidence or, in general, to a content.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%3Ais%20about" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#isAbout">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#isAbout" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#isAbout" data-placement="right">
+                            is about</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Agent" data-placement="right">Agent</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">The agent that is the main actor in the provided evidence</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%3Ais%20Conformant" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#isComformantWith">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#isComformantWith" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#isComformantWith" data-placement="right">
+                            is Conformant</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Evidence type" data-placement="right">Evidence type</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">The kind of evidence</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%3Asupports%20concept" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#supports">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#supports" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#supports" data-placement="right">
+                            supports concept</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Requirement" data-placement="right">Requirement</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the supported concept by the evidence</td>
+                        <td property="skos:scopeNote">NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%3Asupports%20concept" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#supports">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#supports" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#supports" data-placement="right">
+                            supports concept</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Requirement" data-placement="right">Requirement</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the supported concept by the evidence</td>
+                        <td property="skos:scopeNote">NOTE: is this detail necessary? As it is implied by the support for the requirement to which this RequirementConcept is linked.</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Evidence type"><a href="http://data.europa.eu/m8g/cccev#EvidenceType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#EvidenceType" data-placement="right">Evidence type</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>Information about the characteristics of an expected evidence, such as the desired content, format, source, etc.</dd>
+                    
+		     
+		    <dt>Subclass of<dt><dd>
+                        <a href="#Dataset">Dataset</a>
+		   </dd>
+                    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Evidence%20type%3Adataset%20type">dataset type</a>, 
+                      <a href="#Evidence%20type%3Aevidence%20type%20classification">evidence type classification</a>, 
+                      <a href="#Evidence%20type%3Ais%20specified%20in">is specified in</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Evidence%20type%3Adataset%20type" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#datasetType">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#datasetType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#datasetType" data-placement="right">
+                            dataset type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Code" data-placement="right">Code</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">A classification code use to specify the machine-readability of a content.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20type%3Aevidence%20type%20classification" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#evidenceTypeClassification">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#evidenceTypeClassification" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#evidenceTypeClassification" data-placement="right">
+                            evidence type classification</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Code" data-placement="right">Code</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">A classification code to specify the layout and content expected for an evidence.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20type%3Ais%20specified%20in" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#isSpecifiedIn">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#isSpecifiedIn" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#isSpecifiedIn" data-placement="right">
+                            is specified in</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Evidence Type List" data-placement="right">Evidence Type List</a>
+			    
+                          
+                        </td>
+                        <td>1..*</td>
+                        <td property="rdfs:comment"></td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Evidence Type List"><a href="http://data.europa.eu/m8g/cccev#EvidenceTypeList" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#EvidenceTypeList" data-placement="right">Evidence Type List</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd></dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Evidence%20Type%20List%3Adescription">description</a>, 
+                      <a href="#Evidence%20Type%20List%3Adescription">description</a>, 
+                      <a href="#Evidence%20Type%20List%3Adescription">description</a>, 
+                      <a href="#Evidence%20Type%20List%3Aidentifier">identifier</a>, 
+                      <a href="#Evidence%20Type%20List%3Aidentifier">identifier</a>, 
+                      <a href="#Evidence%20Type%20List%3Aidentifier">identifier</a>, 
+                      <a href="#Evidence%20Type%20List%3Aname">name</a>, 
+                      <a href="#Evidence%20Type%20List%3Aname">name</a>, 
+                      <a href="#Evidence%20Type%20List%3Aname">name</a>, 
+                      <a href="#Evidence%20Type%20List%3Aspecifies%20evidence%20type">specifies evidence type</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Evidence%20Type%20List%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement  being instantiated.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">An unambiguous reference</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">An unambiguous reference</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">An unambiguous reference</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A name to identify in common language the Requirement</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A name to identify in common language the Requirement</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aname" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">A name to identify in common language the Requirement</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Evidence%20Type%20List%3Aspecifies%20evidence%20type" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#specifiesEvidenceType">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#specifiesEvidenceType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#specifiesEvidenceType" data-placement="right">
+                            specifies evidence type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Evidence type" data-placement="right">Evidence type</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment"></td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Information Requirement"><a href="http://data.europa.eu/m8g/cccev#InformationRequirement" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#InformationRequirement" data-placement="right">Information Requirement</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>A request for data that is proof of evidence or leads to the source of such a proof.</dd>
+                    
+		     
+		    <dt>Subclass of<dt><dd>
+                        <a href="#Requirement">Requirement</a>
+		   </dd>
+                    
+                    <dt>Properties</dt>
+		    
+                    <dd>No properties have been defined for this entity.</dd>
+                    
+                  </dl>
+                </div>
+		
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Reference Framework"><a href="http://data.europa.eu/m8g/cccev#ReferenceFramework" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#ReferenceFramework" data-placement="right">Reference Framework</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd></dd>
+                    
+		     
+		    <dt>Subclass of<dt><dd>
+                        <a href="#Dataset">Dataset</a>
+		   </dd>
+                    
+                    <dt>Properties</dt>
+		    
+                    <dd>No properties have been defined for this entity.</dd>
+                    
+                  </dl>
+                </div>
+		
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Requirement"><a href="http://data.europa.eu/m8g/cccev#Requirement" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#Requirement" data-placement="right">Requirement</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>A condition demanded.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Requirement%3Ahas%20concept">has concept</a>, 
+                      <a href="#Requirement%3Ahas%20evidence%20type%20combination">has evidence type combination</a>, 
+                      <a href="#Requirement%3Ahas%20requirement">has requirement</a>, 
+                      <a href="#Requirement%3Ahas%20supporting%20evidence">has supporting evidence</a>, 
+                      <a href="#Requirement%3Ais%20derived%20from">is derived from</a>, 
+                      <a href="#Requirement%3Ais%20requirement%20of">is requirement of</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Requirement%3Ahas%20concept" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#hasConcept">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#hasConcept" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#hasConcept" data-placement="right">
+                            has concept</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#RequirementConcept" data-placement="right">RequirementConcept</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the requirement concept for which the requirement expects an support in the supporting evidence</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Requirement%3Ahas%20evidence%20type%20combination" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#hasEvidenceTypeCombination" data-placement="right">
+                            has evidence type combination</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Evidence Type List" data-placement="right">Evidence Type List</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment"></td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Requirement%3Ahas%20requirement" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#hasRequirement">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#hasRequirement" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#hasRequirement" data-placement="right">
+                            has requirement</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Requirement" data-placement="right">Requirement</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">a related requirement</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Requirement%3Ahas%20supporting%20evidence" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#hasSupportingEvidence">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#hasSupportingEvidence" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#hasSupportingEvidence" data-placement="right">
+                            has supporting evidence</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Evidence" data-placement="right">Evidence</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the kind of evidences that the requirement expects</td>
+                        <td property="skos:scopeNote">NOTE: label should be change</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Requirement%3Ais%20derived%20from" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#isDerivedFrom">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#isDerivedFrom" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#isDerivedFrom" data-placement="right">
+                            is derived from</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Reference Framework" data-placement="right">Reference Framework</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">the reference framework that is responsible for the creation/initiation of the requirement</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Requirement%3Ais%20requirement%20of" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#isRequirementOf">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#isRequirementOf" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#isRequirementOf" data-placement="right">
+                            is requirement of</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Requirement" data-placement="right">Requirement</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment"></td>
+                        <td property="skos:scopeNote">NOTE: inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="RequirementConcept"><a href="http://fixme.com#Concept" data-toggle="tooltip" data-content="http://fixme.com#Concept" data-placement="right">RequirementConcept</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#RequirementConcept%3Ahas%20Constraint">has Constraint</a>, 
+                      <a href="#RequirementConcept%3Atype">type</a>, 
+                      <a href="#RequirementConcept%3Atype">type</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="RequirementConcept%3Ahas%20Constraint" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/cccev#hasConstraint">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/cccev#hasConstraint" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/cccev#hasConstraint" data-placement="right">
+                            has Constraint</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Constraint" data-placement="right">Constraint</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">The limitations imposed to a requirement concept by the requirement that requests information about the requirement concept.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="RequirementConcept%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Code" data-placement="right">Code</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">the category or type to which the requirement belongs</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="RequirementConcept%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Code" data-placement="right">Code</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">the category or type to which the requirement belongs</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Standard"><a href="http://purl.org/dc/terms/Standard" data-toggle="tooltip" data-content="http://purl.org/dc/terms/Standard" data-placement="right">Standard</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd></dd>
+                    
+		    
+                    <dt>Properties</dt>
+		    
+                    <dd>No properties have been defined for this entity.</dd>
+                    
+                  </dl>
+                </div>
+		
+            </div>
+            
+
+            
+            <div class="region region--no-space-top">
+              <h2 class="h2">Datatypes</h2>
+            </div>
+            
+            <div class="region region--no-space-top">
+              
+              <h3 class="h3" id="Code"><a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a></h3>
+	      
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>A concept in a codelist</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		    
+                    <dd>There are no properties defined for this datatype.</dd>
+                    
+                  </dl>
+                </div>
+		
+            </div>
+            
+            
+            <div class="region region--no-space-top" id="jsonld">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
+                (niet normatief)
+                
+		<p>A reusable JSON-LD context definition for this application profile is retrievable at: <a href="/doc/applicationprofile/cccev-ap/context/cccev-ap_en.jsonld" target="_blank">/doc/applicationprofile/cccev-ap/context/cccev-ap_en.jsonld</a></p>
+                
+            </div>
+            <div class="region region--no-space-top" id="shacl">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
+                (non-normative)
+                
+		<p>A reusable SHACL template for this application profile is retrievable at: <a href="/doc/applicationprofile/cccev-ap/shacl/cccev-ap_en-SHACL.ttl" target="_blank">/doc/applicationprofile/cccev-ap/shacl/cccev-ap_en-SHACL.ttl</a></p>
+                
+            </div>
+          </div>
+          <div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
+              <nav class="side-navigation js-sticky region" id="sideNav">
+                  <div class="side-navigation__content js-scrollspy">
+                      <div class="side-navigation__group">
+                          <ul>
+                              <li class="side-navigation__item">
+                                  <a href="#introduction">Introduction</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#summary">Summary</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#status">Status of this document</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#license">License</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#conformance">Conformance</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#overview">Overview</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#jsonld">JSON-LD Context</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#shacl">SHACL template</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+    <!-- End page content -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://dij151upo6vad.cloudfront.net/2.latest/js/vlaanderen-ui.js"></script>
+
+  <style>
+    @media screen {  /* hide from IE3 */
+      a[href]:hover { background: #ffa }
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    tr:nth-child(even) td     { background-color:#eee; }
+
+    dt, dd { margin-top: 0; margin-bottom: 0 } /* opera 3.50 */
+    dt { font-weight: bold }
+
+    pre, code { font-family: monospace } /* navigator 4 requires this */
+
+    em {
+          font-style: italic;
+    }
+
+    img {
+       width: 100%;
+    }
+
+    .tooltip {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 800;
+      display: none;
+      max-width: 128rem;
+      background: #fff;
+      border: 1px solid #ccc;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      font-size: 1.4rem;
+      color: #000;
+      background-clip: padding-box;
+    }
+
+    .logo {
+      content: url("/cms/icons/DUETLogo.jpg");
+      height: 20%;
+      min-width: 10px;
+      min-height: 10px;
+      position:absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .header {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+  </style>
+</body>
+</html>
