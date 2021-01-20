@@ -267,7 +267,7 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
               <h3 class="h3" id="Concept"><a href="http://fixme.com#Concept" data-toggle="tooltip" data-content="http://fixme.com#Concept" data-placement="right">Concept</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Description</dt><dd>A reference to an entity, i.e. a class or a property, which used to describe information in the to be provided evidence for the requirement</dd>
+                    <dt>Description</dt><dd>A reference to an entity, i.e. a class or a property, which used to describe information that is either requested by the Requirement either being provided by the Evidence.</dd>
                     
 		    
                     <dt>Properties</dt>
@@ -405,7 +405,7 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                   <dl>
                     <dt>Description</dt><dd>Limitation applied to requirement(s) or to the concept(s) the requirement is about.</dd>
                     
-                    <dt>Usage</dt><dd>An example in eProcurement, a threshold: the minimum Turnover required by the buyer to select the candidates.</dd>
+                    <dt>Usage</dt><dd>An example in eProcurement is the usage of a threshold: the minimum turnover required by the buyer to participate in the selection of a supplier. In most cases a constraint applies to a specific concept.</dd>
                     
 		     
 		    <dt>Subclass of<dt><dd>
@@ -427,7 +427,9 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                   <dl>
                     <dt>Description</dt><dd>condition for evaluation or assessment.</dd>
                     
-                    <dt>Usage</dt><dd>In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences.</dd>
+                    <dt>Usage</dt><dd>In general, criteria are used for comparison, filtering and selection. Criteria usually set minimum constraints (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the required conditions or to fulfil them in a certain degree or quality. The evaluation of the fulfilment is usually supported with the provision of evidences. 
+		    NOTE1: Criteria differ from constraints in their application objective. Constraints must be fullfilled and cannot be negotiated, where-as critteria are more measures that express the fitness to achieve a objective. 
+		    NOTE2: The properties relating to the assessment express parameters in an assessment measurement function. As this function can have different forms the semantics of these properties needs to inspected if they are apply to one formula or to multiple. </dd>
                     
 		     
 		    <dt>Subclass of<dt><dd>
@@ -542,8 +544,12 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
               <h3 class="h3" id="Dataset"><a href="http://www.w3.org/ns/dcat#Dataset" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#Dataset" data-placement="right">Dataset</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Description</dt><dd></dd>
+                    <dt>Description</dt><dd>A collection of data, published or curated by a single agent, and available for access or download in one or more representations.</dd>
                     
+		    <dt>Usage</dt><dd>
+		    NOTE1: A Dataset is a superclass of Evidence. If there are any properties for Evidence that are already existing at the level of Dataset then these should be reused.
+		    NOTE2: This abstraction level also expresses the vision that an Evidence is an abstract notion which concrete representation on which the fullfillment of the requirement is assessed, is retrieviable via its distributions (or even more via associated dataservices).  
+		    </dd>
 		    
                     <dt>Properties</dt>
 		     
@@ -598,7 +604,7 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
               <h3 class="h3" id="Distribution"><a href="http://www.w3.org/ns/dcat#Distribution" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#Distribution" data-placement="right">Distribution</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Description</dt><dd></dd>
+                    <dt>Description</dt><dd>A specific representation of a dataset.</dd>
                     
 		    
                     <dt>Properties</dt>
@@ -635,8 +641,8 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="skos:scopeNote"></td>
+                        <td property="rdfs:comment">the url were the actual data can be downloaded.</td>
+                        <td property="skos:scopeNote">NOTE: Using this property will create a very indirect way to access actual evidence data. As respons to a requirement an evidence is being provided, which expresses as distribution a downloadable file. The requirement assemenent authority has thus to do an additional request to download the actual data.</td>
                         <td></td>
                       </tr>
                     
@@ -652,6 +658,11 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                   <dl>
                     <dt>Description</dt><dd>The data proving that a requirement is met or has been fulfilled.</dd>
                     
+		    <dt>Usage</dt><dd>
+		    NOTE: We focus here on the generic properties of an Evidence. Not on a concrete evidence like a birth-certificate. 
+                    Implementations of CCCEV have to decide how the interrelationship between a concrete evidece like the birth-certificate and the cccev:Evidence takes form. 
+
+		    </dd>
 		     
 		    <dt>Subclass of<dt><dd>
                         <a href="#Dataset">Dataset</a>
