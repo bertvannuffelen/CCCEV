@@ -166,9 +166,10 @@
 <br/>
 The CCCEV contains two basic and complementary core concepts:
 <ul>
-<li> the criterion, something used as the basis for making a judgement or decision, e.g. a requirement set in a public tender or a condition that has to be fulfilled for a public service to be executed; and </l>
+<li> the requirement, something used as the basis for making a judgement or decision, e.g. a requirement set in a public tender or a condition that has to be fulfilled for a public service to be executed; and </l>
 <li> the evidence, something which proves that something else exists or is true, in particular an evidence is used to prove that a specific criterion is met by someone of by something. </li>
 </ul>
+CCCEV is shaping a general framework around these core concepts. However, implementations have to make decisions on how the framework is actually used. Because of the genericity of the framework, an implementation should first further elaborate the framework to make it applicable in their context. For instance the framework does not make a difference between an evidence that is offered as support or one which is validated and accepted as support for an requirement. 
 </p>
 
             </div>
@@ -892,8 +893,8 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>1..*</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="skos:scopeNote"></td>
+                        <td property="rdfs:comment">The EvendenceType List of which this evidence is part of </td>
+                        <td property="skos:scopeNote">NOTE: this property was set to be mandatory, but probably it shoudn't. An evidence type might not be requested by any requirement.</td>
                         <td></td>
                       </tr>
                     
@@ -1007,7 +1008,7 @@ This specification</span> of <a rel="cc:attributionURL" property="cc:attribution
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment"></td>
+                        <td property="rdfs:comment">the evidence types the Evidence Type List is composed of</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
