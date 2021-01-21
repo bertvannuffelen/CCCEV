@@ -14,7 +14,7 @@ The latest specification is CCCEV 2.0.0 can be found at https://bertvannuffelen.
 
 The activities the SEMIC community performs around this specification are found on [Joinup](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-criterion-and-core-evidence-vocabulary). 
 
-Any problems encountered, or suggestions for new functionalities can be submitted as issues on the Core Criterion and Core Evidence Vocabulary repository on [GitHub](https://github.com/SEMICeu/CCCEV/issues). A short guideline for submitting issues can be found at https://github.com/SEMICeu/CCCEV/wiki.
+Any problems encountered, or suggestions for new functionalities can be submitted as issues on the Core Criterion and Core Evidence Vocabulary repository on [GitHub](https://github.com/SEMICeu/CCCEV/issues). A short guideline for submitting issues can be found at [https://github.com/SEMICeu/CCCEV/wiki](https://github.com/SEMICeu/CCCEV/wiki).
 
 
 
