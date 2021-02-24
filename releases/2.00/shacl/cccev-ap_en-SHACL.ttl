@@ -7,24 +7,24 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConstraintShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeListShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#RequirementShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConceptShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ReferenceFrameworkShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CriterionShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#cccev:SupportedValueShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#AgentShape>,
-    <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#InformationRequirementShape> .
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_enshapes> <https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConstraintShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#DatasetShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#EvidenceTypeShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#EvidenceTypeListShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#EvidenceShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#RequirementShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#ConceptShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#ReferenceFrameworkShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#CriterionShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#cccev:SupportedValueShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#AgentShape>,
+    <https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#InformationRequirementShape> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#AgentShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#AgentShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass foaf:Agent .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConceptShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#ConceptShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
@@ -50,7 +50,7 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Concept> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ConstraintShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#ConstraintShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/cccev#Concept>;
@@ -60,7 +60,7 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Constraint> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#CriterionShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#CriterionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
@@ -86,11 +86,11 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Criterion> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#DatasetShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#DatasetShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass dcat:Dataset .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#EvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/cccev#Concept>;
@@ -121,7 +121,7 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Evidence> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeListShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#EvidenceTypeListShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
@@ -142,7 +142,7 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceTypeList> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#EvidenceTypeShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#EvidenceTypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://fixme.com#Code>;
@@ -169,15 +169,15 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#EvidenceType> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#InformationRequirementShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#InformationRequirementShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://data.europa.eu/m8g/cccev#InformationRequirement> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#ReferenceFrameworkShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#ReferenceFrameworkShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://data.europa.eu/m8g/cccev#ReferenceFramework> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#RequirementShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#RequirementShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/cccev#Evidence>;
@@ -243,7 +243,7 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/cccev#Requirement> .
 
-<https://duet.dev-vlaanderen.be/shacl/cccev-ap_en#cccev:SupportedValueShape> a shacl:NodeShape;
+<https://semiceu.github.io/CCCEV/releases/200/shacl/cccev-ap_en#cccev:SupportedValueShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/cccev#Concept>;
